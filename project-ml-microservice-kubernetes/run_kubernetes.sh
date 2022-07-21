@@ -14,4 +14,4 @@ kubectl apply -f project4.yml
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward pod/microservice 8089:8089
+kubectl port-forward pod/microservice 8089:80
