@@ -10,4 +10,4 @@ docker build -t app .
 docker image ls
 # Step 3: 
 # Run flask app
-docker run -p 80:80 app
+docker run -p 8089:80 app
